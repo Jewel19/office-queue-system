@@ -1,0 +1,88 @@
+
+/*global
+/*Head toolbar
+/* Add a black background color to the top navigation */
+.logo{
+    max-width: 30px;
+  }
+  .logobtn{
+  border-color: #ffffff00;
+  }
+  body{
+    align-content: center;
+    overflow: hidden;
+    margin: auto;
+  }
+  .ofcnme{
+  
+    float: right;
+    margin-right: 1%;
+  }
+  .outbtn{
+    border-left: #000000 solid;
+    float: right;
+    margin-right: 1%;
+  }
+    .topnav {
+    width: 100%;
+    margin-left: 1%;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: #000000;
+    padding: 10px ;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .mat-slider-horizontal .mat-slider-ticks {
+    background-image: repeating-linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7) 2px, transparent 0, transparent);
+    background-image: -moz-repeating-linear-gradient(0.0001deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7) 2px, transparent 0, transparent);
+  }
+  /* Change the color of links on hover */
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: rgb(205, 175, 175);
+  }
+  
+  a{
+    float: left;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  input{
+    height: 10px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  /* end of global------------------------------------------------------------------------
+  ofixdash*/
+  table{
+  
+    width: 100%;
+    height: 100%;
+    border: #000000 solid;
+  
+  }
+  tr{
+    border: #b33333 solid;
+    width: 100%;
+    height: 100%;
+  }
+  td{
+    padding: 5px;
+    border: #b33333 solid;
+    width: 100%;
+    height: 100%;
+  }
+  div.ofcdsh{
+    margin: 1%;
+  }
+  .mainscreen{
+    height: 600px;
+  }
+  .sccprt{
+    height: 200px;
+  }
+  

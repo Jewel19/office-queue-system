@@ -1,0 +1,107 @@
+
+/*global
+/*Head toolbar
+/* Add a black background color to the top navigation */
+.logo{
+    max-width: 30px;
+  }
+  .logobtn{
+  border-color: #ffffff00;
+  }
+  body{
+  
+    align-content: center;
+    overflow: hidden;
+    margin: auto;
+  }
+  .accbtn{
+    float: right;
+    margin-right: 10%;
+  }
+    .topnav {
+    width: 100%;
+    margin-left: 10%;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: #000000;
+    padding: 10px ;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .mat-slider-horizontal .mat-slider-ticks {
+    background-image: repeating-linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7) 2px, transparent 0, transparent);
+    background-image: -moz-repeating-linear-gradient(0.0001deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7) 2px, transparent 0, transparent);
+  }
+  /* Change the color of links on hover */
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: rgb(205, 175, 175);
+  }
+  
+  a{
+    float: left;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  input{
+    height: 10px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  /* end of global------------------------------------------------------------------------
+  create offic*/
+  
+  td{
+    float: inherit;
+    margin-left: 10%;
+  }
+  
+  table{
+  
+    float: left;
+     min-width: 350px;
+     width: 100%;
+  }
+  .table1{
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 15%;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+    button.crtofc{
+    margin-left: auto;
+    color: white;
+    background-color: cyan;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    font-size: 120%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  /* From uiverse.io by @arieshiphop */
+  button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: dodgerblue;
+    color: white;
+    border-radius: 4px;
+   }
+   
+   button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+   }
+   
+   
+   button:active {
+    transform: translate(0em, 0.2em);
+   }

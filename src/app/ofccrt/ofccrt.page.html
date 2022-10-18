@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+   <div  class="topnav">
+      <button class="logobtn"><img class="logo" src="assets\samplelogo.jpg" alt=""></button>
+      <a href="" class="accbtn" onclick="">ADMIN</a>      
+     </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<!--office account craetion page-->
+
+  <head >
+    <title >signup</title>
+  </head>
+  <body >
+    <br >
+    <br >
+    <br >
+    <br >
+    <div  align="center" class="signupp">
+      <table  class="table1">
+        <td   class="login">
+          <a >Organisation Name </a>
+          <br >
+          <input id="orgname"  placeholder="company/school/university" type="list" ng-model="orgname" required>
+          <br >          
+          <a >Office Name</a>
+          <br >
+          <input  id="ofcname" type="text" placeholder="finance/registrar/dean"ng-model="" required>
+          <br >
+          <a >Window</a>
+          <br >
+          <input id="ofcwinnum"  placeholder="00" type="number" ng-model="windownum">
+          <br >
+        </td>
+        <td   class="signup2">
+          <a >User Login</a>
+          <br >
+          <input id="officelogin"  placeholder="user@office" type="text" ng-model="text" required>
+          <br >
+          <a >Enter Password </a>
+          <br >
+          <input id="officepassword"placeholder="password" type="password" class="password"ng-model="password" required>
+          <br ><br >
+          <button  app-log="" type="button" name="cretofc" class="button crtofc">CREATE OFFICE ACCOUNT</button>
+        </td>
+      </table>
+    </div>
+  </body>
+
+</ion-content>

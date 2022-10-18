@@ -1,0 +1,63 @@
+/*Head toolbar
+/* Add a black background color to the top navigation */
+.topnav {
+    width: 100%;
+    margin-left: 5%;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    
+    color: #000000;
+    padding: 14px ;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
+  .mat-slider-horizontal .mat-slider-ticks {
+    background-image: repeating-linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7) 2px, transparent 0, transparent);
+    background-image: -moz-repeating-linear-gradient(0.0001deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7) 2px, transparent 0, transparent);
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: rgb(205, 175, 175);
+  }
+  /*Login*/
+  td
+  {
+    height: 100%;
+  }
+  .logcont {
+    margin: auto;
+    align-items: center;
+  }
+  button.loginbtn{
+    color: white;
+    background-color: cyan;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  p.loginnote{
+   size: 80px;
+   padding: 30px;
+   font-size: 80px;
+   color: rgb(111, 170, 222);
+  }
+  input{
+    height: 10px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
