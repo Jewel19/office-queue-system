@@ -1,25 +1,48 @@
-import { SignupPage } from './../signup/signup.page';
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.page.html',
   styleUrls: ['./login.page.scss'],
 })
+
 export class LoginPage implements OnInit {
 
-  constructor(private router: Router) { }
+
+  constructor(private router: Router) { 
+  
+  }
+
+  ofdash(){
+    this.router.navigate(['ofcdash'])
+
+  }
+
+  forgot(){
+    this.router.navigate(['forgotpass'])
+
+  }
+
+  sgnup(){
+    this.router.navigate(['signup'])
+
+  }
+
+  godash(){
+    this.router.navigate(['pubdash'])
+
+  }
 
   ngOnInit() {
 
-
-
-    }
+    
+  }
   
+}
 
-}
-function fill(arg0: Promise<boolean>) {
-       fill(this.router.navigate(['signup'])); throw new Error('Function not implemented.');
-}
+
+
+
 

@@ -35,6 +35,10 @@ const routes: Routes = [
     path: 'ofcdash',
     loadChildren: () => import('./ofcdash/ofcdash.module').then( m => m.OfcdashPageModule)
   },
+  {
+    path: 'forgotpass',
+    loadChildren: () => import('./forgotpass/forgotpass.module').then( m => m.ForgotpassPageModule)
+  },
 ];
 
 @NgModule({
