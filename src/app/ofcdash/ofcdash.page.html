@@ -1,4 +1,4 @@
-<ion-header>
+
   <ion-toolbar>
  
     <div class="topnav">
@@ -7,29 +7,41 @@
       <a href=""  type="text" class="ofcnme">office name</a>
      </div>
 </ion-toolbar>
-</ion-header>
+
 
 <ion-content>
 <!--office dashboard-->
 
-<body>
-  <div class="ofcdsh">          
+  <body  >
+    <div class="ofcdsh">
+      <div class="dvlist">
+        <div class="list">        
+          <table class="qlist">      
+            <tr >
+              <td class="qlst">
+                quenumber
+              </td>
+              <td class="qlst">querid</td>
+            </tr>
+            </table>
+            <table class="qlist" *ngFor="let qer of queuer">
+            <tr >    
+              <td class="qlst"> {{qer.qnum}}</td>
+              <td class="qlst"> {{qer.querid}} </td>
+            </tr>
+          </table>     
+        </div>          
+        
+        <div class="qscan">
+          Scan your code here>>>
+        </div>
+      </div>     
 
-  <table>
-    <td>
-      <div></div>
-    <tr class="mainscreen" >
-     <button ></button>
-    </tr>
-  </td>
-  </table>  
-  <br>
-   <table>
-    <td>
-    <tr class="sccprt">  
-    </tr>
-  </td>
-  </table> 
-</div>
-</body>
+      <div class="qflash" *ngFor="let qer of queuer">
+        <p>PLEASE COME INSIDE THE OFFICE</p>
+        <p>QUEUER: {{qer.querid}}</p>
+      </div>
+
+    </div>
+  </body>
 </ion-content>

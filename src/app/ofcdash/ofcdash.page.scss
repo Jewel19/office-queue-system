@@ -8,11 +8,7 @@
   .logobtn{
   border-color: #ffffff00;
   }
-  body{
-    align-content: center;
-    overflow: hidden;
-    margin: auto;
-  }
+
   .ofcnme{
   
     float: right;
@@ -59,30 +55,56 @@
   /* end of global------------------------------------------------------------------------
   ofixdash*/
   table{
+  width: 100%;
+   
+  border: #000000 solid 1px;
   
-    width: 100%;
-    height: 100%;
-    border: #000000 solid;
-  
+  th {
+    text-align: center;
   }
+
   tr{
     border: #b33333 solid;
     width: 100%;
-    height: 100%;
+
   }
+
   td{
-    padding: 5px;
     border: #b33333 solid;
-    width: 100%;
+  }
+  .qlst{
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+  }
+  .qlist{
+    float: left;
+  }
+  }
+
+    .dvlist{ 
     height: 100%;
+    width: 30%;
+    font-size: xx-large; 
+    float: left;
   }
-  div.ofcdsh{
-    margin: 1%;
+  .qflash{
+    width: 69%;
+    float: left;
+    align-items: center; 
+    height: 100%;
+    font-size: 700%;
   }
-  .mainscreen{
-    height: 600px;
+  .qscan{
+    height: 59%;
+    width: 99%;
+    margin: 1px;
+    float: initial;
   }
-  .sccprt{
-    height: 200px;
+  .list{
+    height: 41%;
+    width: 99%;
+    margin: 1px;
+    float: initial;
+    overflow: hidden;
   }
-  

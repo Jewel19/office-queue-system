@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>    
-    <div  class="topnav">
+    <div class="topnav">
       <a href=""><img width="10px" src="src\assets\samplelogo.jpg" alt=""></a>
       <a href="">Contact</a>
       <a href="">About</a>
@@ -10,35 +10,31 @@
 
 <ion-content>
 <!--sign up page-->
-  <head >
-    <title >signup</title>
-  </head>
-  <body >
-    <br >
-
-    <br >
-    <br >
-    <br >
-    <div  align="center" class="signupp">
+  <body>
+    <hr>
+  <div  align="center" class="signupp">
       <table  class="table1">
         <td   class="login">
           <br >
-          <input  placeholder="First Name" type="text" ng-model="First Name" required>
-          <br >
-          <input   placeholder="Last name" type="text" ng-model="Last Name" required>
-          <br>
+          <input  placeholder="First Name" type="text"  required>
+          <hr>
+          <input   placeholder="Last name" type="text"  required>
+          <hr>
           <input type="radio" name="gender" value="male"> Male
-          <input type="radio" name="gender" value="female"> Female
-          <br>
-          <input   type="email" ng-model="Email" required>
+          <input type="radio"  name="gender" value="female"> Female
+          <hr>
+          <input   type="email" placeholder="Email" required>
         </td>
         <td   class="signup2">
           <br >
-          <input placeholder="Password"  type="password" ng-model="password" required>
-          <br >
-          <input  placeholder="Confirm Password" type="password" ng-model="password" required>
-          <br>
-          <button  type="button" name="signup" class="button signupbtn" >SIGN UP!</button>
+          <input placeholder="Password"  type="password"  required>
+          <hr>
+          <input  placeholder="Confirm Password" type="password"  required>
+          <hr>
+          <ion-checkbox id="tnachck"></ion-checkbox>
+          <label for="tnachck" class="chcbxlbl">I Agree to terms and condition</label>
+          <hr>
+          <button  type="submit" name="signup" class="button signupbtn" >SIGN UP!</button>
         </td>
       </table>
     </div>
